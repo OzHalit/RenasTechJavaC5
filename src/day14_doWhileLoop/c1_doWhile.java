@@ -31,6 +31,29 @@ public class c1_doWhile {
             System.out.println("number2 = " + number2);
             number2++;
         }while (number2<10);
+        System.out.println("******************************************************************************");
+
+
+int count=0;
+        int number4=0;
+        do{
+            if(number4%2==0) {
+                count++;
+
+                System.out.print(number4 + " , ");
+            }
+            number4++;
+
+
+            }while (number4<=100);{
+            System.out.println();
+            System.out.println(count);
+
+
+        }
+
+
+
 
         }
 
