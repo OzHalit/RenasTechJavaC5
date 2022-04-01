@@ -48,6 +48,7 @@ int count=0;
             }while (number4<=100);{
             System.out.println();
             System.out.println(count);
+            System.out.println("**************************************************");
 
 
         }
