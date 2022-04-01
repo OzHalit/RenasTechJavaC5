@@ -44,9 +44,19 @@ public class c3_NestedLoop {
             System.out.println();
         }
 
+        System.out.println("we will attempt to print US Banner");
+
+        for (int i = 1; i < 5; i++) {
+            System.out.print("**********");
+            System.out.print("================================");
+            System.out.println();
+
+        }
+        for (int k = 1; k < 4; k++) {
 
 
-
+            System.out.println("==========================================");
+        }
 
 
     }}
