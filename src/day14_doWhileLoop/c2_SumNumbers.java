@@ -1,5 +1,7 @@
 package day14_doWhileLoop;
 
+import java.util.Scanner;
+
 public class c2_SumNumbers {
     public static void main(String[] args) {
 
@@ -11,7 +13,26 @@ public class c2_SumNumbers {
         //if user says y or Y continue
         //if user says n or N stop the loop
 
+        Scanner input=new Scanner(System.in);
+        char choice; // y or n
+        int number1 , number2;
 
+        do {
+            System.out.println("First number here bro: ");
+            number1 = input.nextInt();
+            System.out.println("Alright bro, now enter 2nd Number: ");
+            number2 = input.nextInt();
+
+            //the number should be addded and the sum displayed.
+
+            int sum=number1+number2;
+            System.out.println("Bro, here's the sum of the numbers "+number1 +" & " +number2 +" which is: " +sum);
+            System.out.println("Do you want to continue this addition opperation? type y or n");
+            choice=input.next().charAt(0);
+
+
+
+        }while (choice=='y' || choice=='Y');
 
 
 
