@@ -4,10 +4,14 @@ import java.util.Scanner;
 
 public class task2 {
     public static void main(String[] args) {
-        ////Create a Java Program to Add Two Integers
+//find ASCII value
 
-        Scanner input=new Scanner(System.in);
-        System.out.println();
+Scanner input=new Scanner(System.in);
+char character=input.next().charAt(0);
+int asciiValue=character;
+        System.out.println("ASCII value of "+character+ " is: "+asciiValue);
+
+
 
     }
 }
